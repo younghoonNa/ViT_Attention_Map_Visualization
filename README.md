@@ -1,6 +1,8 @@
 # ViT_Attention_Map_Visualization
 ViT Attention map visualization (using Custom ViT and Pytorch timm module)
 
+- Input Image - Attention output -> Normalize -> eliminate under the mean
+
 Model: Custom Model + timm pretrained vit_base_patch16_224
 Visualize Dataset: STL10
 Image Size -> (96, 96) -> (224, 224)
